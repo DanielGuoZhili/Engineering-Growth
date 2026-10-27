@@ -10,14 +10,14 @@
 
 ## Challenge: Most frequent valid event
 
-You receive an array of event records. Each record has a `userId` and `action`. Return the `userId` that performed the most **valid** actions.
+You receive an **array of event records**. Each record has a `userId` and `action`. **Return** the `userId` that performed the **most valid actions**.
 
-A record is valid only when:
-1. `userId` is a non-empty string after trimming whitespace.
-2. `action` is exactly `"click"` or `"view"` (case-sensitive).
-3. An identical combination of trimmed `userId` and `action` is counted **once** per input array (deduplicate).
+A record is **valid only when**:
+1. `userId` is a **non-empty string** after **trimming whitespace**.
+2. `action` is **exactly** `"click"` or `"view"` (**case-sensitive**).
+3. An **identical combination** of trimmed `userId` and `action` is **counted once** per input array (**deduplicate**).
 
-If several users have the same highest valid-action count, return the lexicographically smallest userId (JavaScript string comparison is acceptable). If there is no valid record, return `null`.
+**If several users** have the **same highest valid-action count**, **return** the **lexicographically smallest** `userId` (JavaScript string comparison is acceptable). **If there is no valid record**, **return `null`**.
 
 Implement:
 ```ts
@@ -43,19 +43,19 @@ Input:
   {"userId":"","action":"click"}
 ]
 ```
-Output: `"alice"` (both users have 2 distinct valid actions, so `alice` wins the tie).
+Output: `"alice"` (both users have **2 distinct valid actions**, so `alice` **wins the tie**).
 
 ### Test yourself
-- Empty input returns `null`.
-- Whitespace-only userIds, non-string userIds, uppercase `"Click"`, and unknown actions are ignored.
-- Two identical valid records count once.
-- Two different users with equal counts follow the tie-break rule.
-- Input is not modified.
+- **Empty input** returns `null`.
+- **Whitespace-only** userIds, **non-string** userIds, uppercase `"Click"`, and **unknown actions** are **ignored**.
+- Two **identical valid records** **count once**.
+- Two different users with **equal counts** follow the **tie-break rule**.
+- Input is **not modified**.
 
 ### What to submit
-1. Your original implementation, e.g. `assessments/week0/mostActiveUser.ts` or `.js`.
-2. At least 4 test cases written by you (inline assertions are fine).
-3. In `assessments/baseline.md`, record time, assistance category (SOLO/ASSISTED/AGENT-BUILT), test results, one improvement you would make, and an explanation of time and space complexity.
+1. Your **original implementation**, e.g. `assessments/week0/mostActiveUser.ts` or `.js`.
+2. **At least 4 test cases** written by you (inline assertions are fine).
+3. In `assessments/baseline.md`, **record time**, **assistance category** (SOLO/ASSISTED/AGENT-BUILT), **test results**, **one improvement**, and an explanation of **time and space complexity**.
 
 ### Assessment rubric (used in weekly review)
 - Requirements and edge cases: 40%
