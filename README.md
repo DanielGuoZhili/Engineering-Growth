@@ -14,16 +14,16 @@ Build transferable skills for Software Engineer, Frontend Engineer, and later AI
 - Never upload client source code, confidential information, or credentials.
 
 ## Workflow
-1. Read [ROADMAP.md](ROADMAP.md), the current [weekly plan](weeks/2026-W43.md), and [AGENTS.md](AGENTS.md).
+1. Read [ROADMAP.md](ROADMAP.md), the current [weekly plan](weeks/2026-W45.md), and [AGENTS.md](AGENTS.md).
 2. Complete a task and link the evidence (commit, test result, or written explanation).
 3. Record baseline observations in [assessments/baseline.md](assessments/baseline.md).
-4. Perform a weekly retrospective using [reviews/2026-W43.md](reviews/2026-W43.md).
+4. Perform a weekly retrospective using [reviews/2026-W44.md](reviews/2026-W44.md).
 5. Only after the review, create the next week's plan.
 
 ## Current stage
-Week 0 (2026-10-21 to 2026-10-25): measure baseline skill, not maximize output.
+Week 2026-W45 (2026-11-02 to 2026-11-08): first independent JavaScript + Python attempt of the same algorithm problem; [weekly plan](weeks/2026-W45.md) and [latest review](reviews/2026-W44.md).
 
-> Repository name suggestion: `engineering-growth`. Rename the repository in GitHub Settings -> General -> Repository name; until then, files remain under `SelfStudyDemo`.
+Repository: `Engineering-Growth` (renamed from `SelfStudyDemo`).
 
 ## Dual-language algorithm practice
 
