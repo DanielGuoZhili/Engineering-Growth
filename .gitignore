@@ -1,0 +1,19 @@
+# Local OS / editor files
+.DS_Store
+.vscode/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+
+# JavaScript
+node_modules/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example

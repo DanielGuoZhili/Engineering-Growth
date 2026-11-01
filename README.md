@@ -24,3 +24,21 @@ Build transferable skills for Software Engineer, Frontend Engineer, and later AI
 Week 0 (2026-10-21 to 2026-10-25): measure baseline skill, not maximize output.
 
 > Repository name suggestion: `engineering-growth`. Rename the repository in GitHub Settings -> General -> Repository name; until then, files remain under `SelfStudyDemo`.
+
+## Dual-language algorithm practice
+
+Practice one shared coding-interview problem in **JavaScript and Python**, at least once per week (initial budget: 2–3 hours). Use [Grind 75](https://www.techinterviewhandbook.org/grind75/) to select problems and LeetCode for submissions. Save both independent first attempts and compare them in [practice/algorithms/](practice/algorithms/README.md). Do not pre-fill results or publish AI-authored work as a solo attempt.
+
+### Clone to your Mac (VS Code / Cursor)
+
+Run once in Terminal (change `~/Developer` to your preferred parent folder):
+
+```bash
+mkdir -p ~/Developer
+cd ~/Developer
+git clone https://github.com/DanielGuoZhili/Engineering-Growth.git
+cd Engineering-Growth
+open Engineering-Growth.code-workspace
+```
+
+After the clone, your local folder and this GitHub repository are linked through the `origin` remote. Before each session, run `git pull --ff-only`; after editing, use `git add`, `git commit`, and `git push origin main`. For an existing checkout, use `git pull --ff-only` instead of cloning again. GitHub authentication is required to push.
