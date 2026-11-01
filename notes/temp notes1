@@ -1,0 +1,54 @@
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    const map = new Map();
+
+    for(let i = 0; i < nums.length; i++){
+        let num = nums[i];
+        let complement = target - num;
+
+        if(map.has(complement)){
+            return[map.get(complement), i];
+        }
+
+        map.set(num, i);
+    }
+
+};
+
+/*
+这个是我的第一个题目,two sum. 
+我自己感觉这个题目我遇到的问题：
+其实应该就是js的内部对象不熟悉，比如我太久没用js，以至于都忘记了map这内置在js的对象，以及
+它有的比如map.has map.set map.get  这个也是js之后练习的时候需要留意和复习的点！
+笔记：
+这个思考逻辑要学习，这个我认为
+这个笔记@saber你帮我记录的时候如果正确就给个评语，比如这个方法或者这个思路是正确的，如果有缺什么也帮我补全！
+
+*/
+
+/*
+这个是同样用py 写的方法，确实是很简单，这次主要要记录的是enumerate的方法的
+class Solution:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
+        # 1. 设定一个空的字典作为容器（用来存：数字 -> 下标）
+        seen = {}
+        
+        # 2. 遍历数组：用 enumerate 同时拿到下标 i 和当前数字 num
+        for i, num in enumerate(nums):
+            
+            # 3. 计算补数
+            complement = target - num
+            
+            # 4. 检查补数在不在字典里
+            if complement in seen:
+                # 如果在，说明找到了！返回之前那个数的下标和当前的下标 i
+                return [seen[complement], i]
+            
+            # 如果不在，把当前的数字和下标存进字典，留给后面查
+            seen[num] = i
+*/
+// @saber能说说这些比如enumerate和map这种我要怎么称呼他们，说是py和js内置的方法？还是对象？

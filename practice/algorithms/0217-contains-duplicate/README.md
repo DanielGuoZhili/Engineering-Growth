@@ -5,12 +5,12 @@
 - Status: **Not started**
 - Difficulty: Easy
 - Source code: [JavaScript](solution.js) · [Python](solution.py)
-- Review: create `review.md` from [the template](../_templates/review-template.md) after your attempt
+- Learning note: [review.md](review.md) (record ideas from the beginning; complete the review after your attempt)
 
 ## Before coding
 
 1. Read the **original English problem**, not a translated solution.
-2. In your review, capture **Input / Output / Constraints** in three short English sentences.
+2. In [review.md](review.md), capture ideas as they occur and write **Input / Output / Constraints** in three short English sentences.
 3. Attempt JS and Python separately. The function signatures are provided; **no algorithm solution is included**.
 4. Explore edge cases yourself and record actual pass/fail results.
 5. Keep both first attempts, even if incomplete; ask for an AI comparison only afterwards.

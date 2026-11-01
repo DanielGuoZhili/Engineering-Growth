@@ -40,11 +40,12 @@ You may start with Python instead of JavaScript in a later week to avoid always 
 
 1. Choose the next item from [PROGRESS.md](PROGRESS.md).
 2. Open the linked original English problem. Do **not** read the solution first.
-3. Implement `solution.js` and `solution.py`; save your first attempt even when incomplete.
-4. Run tests on LeetCode and note pass/fail and actual elapsed minutes.
-5. Create `review.md` from [the template](_templates/review-template.md).
-6. Share the two files and observations for an AI-assisted review **after** writing your attempt.
-7. Update PROGRESS and link evidence in the relevant weekly review.
+3. Open the problem's `review.md` and record ideas as they occur; do not rewrite the history to make the path look cleaner later.
+4. Implement `solution.js` and `solution.py`; save your first attempt even when incomplete.
+5. Run tests on LeetCode and note pass/fail and actual elapsed minutes.
+6. Complete `review.md` using [the template](_templates/review-template.md) as a guide.
+7. Share the two files and observations for an AI-assisted review **after** writing your attempt.
+8. Update PROGRESS and link evidence in the relevant weekly review.
 
 ## Local workflow
 

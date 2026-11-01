@@ -7,6 +7,18 @@
 - English prompt reading time:
 - Assistance: JS (SOLO / HINTED / ASSISTED), Python (SOLO / HINTED / ASSISTED)
 
+## Idea log / 解法演进
+
+Start writing here as soon as you read the problem. Keep ideas that failed or changed; they are useful evidence of how you reasoned.
+
+| Order | Idea / assumption I had | Why it might work | Problem, counterexample, or new finding | Decision |
+| ---: | --- | --- | --- | --- |
+| 1 |  |  |  | Try / Reject / Revisit |
+
+- **My own initial intuition**:
+- **What changed my mind**:
+- **Idea learned from a hint, explanation, or AI** (leave blank if none):
+
 ## English-first understanding
 
 - **Input** (one English sentence):

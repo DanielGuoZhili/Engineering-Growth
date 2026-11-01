@@ -20,6 +20,10 @@ Build transferable skills for Software Engineer, Frontend Engineer, and later AI
 4. Perform a weekly retrospective using [reviews/2026-W44.md](reviews/2026-W44.md).
 5. Only after the review, create the next week's plan.
 
+## Personal learning notes
+
+Use [notes/README.md](notes/README.md) as the entry point for personal learning notes. Write raw fragments and questions in `notes/temp/`; the bilingual Saber note-housekeeper workflow organizes them into the current `主笔记-N.md`, reviews the reasoning, answers marked questions in Chinese by default, and updates a lightweight [cross-note index](notes/INDEX.md). Algorithm code and first-attempt evidence remain in `practice/algorithms/`, while the organized learning record links back to that evidence. Notes may contain partial, uncertain, or later-corrected thinking—they are a learning record, not a polished textbook.
+
 ## Current stage
 Week 2026-W45 (2026-11-02 to 2026-11-08): first independent JavaScript + Python attempt of the same algorithm problem; [weekly plan](weeks/2026-W45.md) and [latest review](reviews/2026-W44.md).
 
